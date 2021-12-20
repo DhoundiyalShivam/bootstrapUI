@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Pacifico|Righteous|Roboto+Condensed|Ubuntu');
+body{
+    margin:0px;
+    padding:0px;
+    font-family: 'lato';
+}
+.logoCss{
+    font-size: 35px;
+    font-family: 'Pacifico';
+}
+.topParallex{
+    background-image: url('parallex.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+.parallexHeading{
+    color: white;
+    margin: 10rem 0px 1rem 0px;
+    font-size: 4rem;
+    font-family: 'Righteous';
+}
+.parallexDesc{
+    color: white;
+    margin: 2rem 0px 3rem 0px;
+    font-size: 1rem;
+    font-family: 'Righteous';
+}
+.topParallexBtn{
+    margin-bottom: 10rem;
+}
+.btn1,.btn2{
+    border-radius: 5px;
+    border:none;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+}
+/*features Section */
+.featuresCards{
+    display: flex;
+    justify-content: center;
+}
+.featuresSection{
+    text-align: center;
+    padding: 3rem 0;
+}
+.featuresDesc{
+    padding: 1rem 10rem;
+    color: #a18888;
+}
+.card{
+    width: 20rem;
+}
+
+/* like Section */
+.likeSection{
+    background:url('image3.jpg');
+   background-size:cover;
+    background-attachment: fixed;
+    color: #ffff;
+    text-align: center;
+}
+.likeSectionHeading{
+    font-family: 'Righteous';
+    
+    padding:10rem 0rem 2rem 0rem;
+}
+.likeSectionDesc{
+    font-family: 'Righteous';
+    
+    padding:2rem 10rem;
+}
+.showBtn{
+    padding: 0.5rem 3rem;
+    margin:2rem 0 4rem 0;
+    background-color:#b12640de;
+    border:none;
+    border-radius: 5px;
+    color:cornsilk;
+}
+/* */
+.sectionDetails{
+    color:#626262;
+    padding:2rem 0;
+}
+.detialsContent>h3{
+    color: #000;
+}
+/* Join us section*/
+.joinUsSection{
+    padding: 2rem;
+    color:#fff;
+    text-align: center;
+}
+.joinUs{
+    background-color: darkgray;
+    overflow: hidden;
+}
+.joinUsImg img{
+    width: 30rem;
+border-radius: 1rem;
+}
+.joinUscontent{
+padding:2rem;
+}
+.joinUsBtn{
+    padding: 0.4rem 2rem;
+    background-color: darkgreen;
+    border:none;
+    border-radius: 0.2rem;
+    color:darkkhaki;
+    
+}
+/*Contact Us   */
+.contactUs{
+    text-align: center;
+    border-bottom: 1px solid #ff9dc1;
+}
+.contactUsInput{
+    width: 25rem;
+    padding: 0.4rem 0.1rem;
+}
+/* .contactUsSubmitBtn{
+    padding: 0.3rem 0.8rem;
+    background-color: darkkhaki;
+    border:none;
+    border-radius: 0.2rem;
+} */
+.footerIcons i{
+    margin:1rem;
+    font-size: 20px;
+    color: #3b7474;
+}
+/* copyright */
+.copyright{
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 1.3rem;
+    color:goldenrod;
+}
+
+@media screen and (max-width:1000px){
+    .featuresCards{
+            width:45%;
+            margin:auto;
+    }
+}
